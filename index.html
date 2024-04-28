@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Base Apparel coming soon page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+<body>
+
+<div id="container">
+    <img id="logo" src="images/logo.svg" alt="Logo">
+    <div class="product-details">
+        <h1 id="comingSoonTitle"></h1>
+        <p class="information" id="informationParagraph"></p>
+        <div class="container">
+            <input type="email" class="textbox" id="emailInput" placeholder="Enter your email address" required>
+            <button class="btn" onclick="validateEmail()" data-error="Please insert a valid email address"></button>
+            <div class="invalid-email">Please insert a valid email address.</div>
+            <div id="validationIcon" class="validation-icon">&#9888;</div> <!-- Exclamation mark in a circle -->
+        </div>
+    </div>
+    <div class="product-image">
+        <img src="images/hero-desktop.jpg" alt="">
+    </div>
+</div>
+<footer>
+    <p class="attribution">
+        Bootcamp 2024 by
+        <a href="https://www.mlab.co.za" target="_blank">CodeTribe</a>.
+        Developed by <a href="https://github.com/Jacob-Makopo/portfolio">Jacob kagiso Makopo</a>.
+    </p>
+</footer>
+<script src="Assets/script.js"></script>
+
+</body>
+</html>
