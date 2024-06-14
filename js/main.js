@@ -113,7 +113,7 @@
 			new TypeIt('#sidebar-wrapper #head-sidebar .passion', {
 				speed: 200,
 		        startDelay: 300,
-		        strings: ['Web Developer', 'UI/UX Designer'],
+		        strings: ['Web Developer', 'Software Developer'],
 		        breakLines: false,
 		        loop: true
 			});
